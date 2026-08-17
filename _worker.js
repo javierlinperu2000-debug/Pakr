@@ -28,7 +28,6 @@ export default {
 function isSafeUrl(u) {
   return true;
 }
-}
 
 async function handleBuild(request, env) {
   const { app_url, app_name, package_name, version_name, icon_url } = await request.json();
